@@ -1,0 +1,99 @@
+
+nav {
+    list-style-type: none;
+}
+
+/* Small width browser size. */
+@media (max-width: 999px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 2 px solid #000080;
+        position: fixed;
+    }
+
+    #links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main {
+        margin-top: 150px;
+    }
+
+    header {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 35px;
+    }
+
+    code {
+        display: block;
+        white-space: pre-wrap;
+        background-color: #F0F0F0;
+        margin-right: 75px;
+        margin-left: 25px;
+    }
+}
+
+/* Main browser size */
+@media (min-width: 1000px) {
+
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        border-right: 2px solid #000080;
+        width: 175px;
+        position: fixed;
+        height: 100%;
+    }
+
+    main {
+        padding-left: 25px;
+        margin-left: 175px;
+    }
+
+    header {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 35px;
+
+    }
+
+    .menu-item {
+        border-top: 0.5px solid #000080;
+        width: auto;
+        height: auto;
+    }
+
+    .nav-link {
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    code {
+        display: block;
+        white-space: pre-wrap;
+        background-color: #F0F0F0;
+        width: 700px;
+        margin-left: 25px;
+    }
+
+}
+
+
+
+
